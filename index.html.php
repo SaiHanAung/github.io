@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAI DEV</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- MATERIAL SYMBOLS ICON -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&display=swap" rel="stylesheet">
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+        const c = console.log.bind()
+    </script>
+
+    <style>
+        * {
+            font-family: 'Prompt', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        html,
+        body {
+            height: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="py-2 fixed-top shadow-sm" style="background-color: #880E4F; overflow-x: hidden;">
+        <div class="row text-center">
+            <div class="col">
+                <a href="#" class="btn btn-sm text-white">
+                    <h4 class="m-0">S</h4>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 mt-4">
+                <a href="#" class="btn card p-3 text-center border-0 shadow-sm" style="cursor: pointer;">
+                    <span class="material-symbols-outlined fs-1 text-secondary">request_quote</span>
+                    <label>Expense recording system</label>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="p-3 text-center fixed-bottom">
+        <span>© SAI DEV 2023</span>
+    </footer>
+</body>
+
+</html>
